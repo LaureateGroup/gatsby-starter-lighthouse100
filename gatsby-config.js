@@ -26,26 +26,12 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'gatsby-starter-lighthouse100.netlify.com',
-        short_name: 'gatsby-starter-lighthouse100',
+        short_name: 'lighthouse100',
         start_url: `/?utm_source=a2hs`,
         background_color: `#fff`,
-        theme_color: `#663399`,
-        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
-        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
+        theme_color: `#050`,
         display: `standalone`,
-        icon: `static/android-chrome-512x512.png`, // This path is relative to the root of the site.
-        icons: [
-          {
-            src: '/android-chrome-192x192.png',
-            sizes: '192x192',
-            type: 'image/png'
-          },
-          {
-            src: '/android-chrome-512x512.png',
-            sizes: '512x512',
-            type: 'image/png'
-          }
-        ]
+        icon: `src/images/lg-square.jpg`
       }
     },
     'gatsby-plugin-netlify',

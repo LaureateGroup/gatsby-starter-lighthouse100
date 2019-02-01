@@ -1,0 +1,42 @@
+{
+  "name": "gatsby-starter-lighthouse100",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaureateGroup/gatsby-starter-lighthouse100.git"
+  },
+  "keywords": [
+    "Atomic Gatsby",
+    "GatsbyJS",
+    "Gatsby",
+    "Javascript"
+  ],
+  "author": "John Milazzo",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/LaureateGroup/gatsby-starter-lighthouse100/issues"
+  },
+  "homepage": "https://github.com/LaureateGroup/gatsby-starter-lighthouse100#readme",
+  "dependencies": {
+    "gatsby": "^2.0.110",
+    "gatsby-plugin-google-gtag": "^1.0.12",
+    "gatsby-plugin-manifest": "^2.0.17",
+    "gatsby-plugin-netlify": "^2.0.8",
+    "gatsby-plugin-offline": "^2.0.22",
+    "gatsby-plugin-react-helmet": "^3.0.6",
+    "gatsby-plugin-robots-txt": "^1.4.0",
+    "gatsby-plugin-sitemap": "^2.0.5",
+    "gatsby-plugin-typography": "2.2.7",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-helmet": "^5.2.0",
+    "react-typography": "^0.16.18",
+    "typography": "^0.16.18"
+  }
+}
